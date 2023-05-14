@@ -1,0 +1,39 @@
+#header {
+    width: 95%;
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+    margin: 0 auto;
+    color: blue;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin-bottom: 25px;
+ }
+ #ria {
+    float: left;
+    width: 40%;
+    margin-right: -10px;
+    text-align: center;
+    }
+ #ris {
+    float: right;
+    width: 40%;
+    margin-right: -10px;
+    text-align: center;
+    
+    }
+
+*.para1{
+    text-align: center;
+    color:blue
+    
+}
+#para2{
+    text-align: center;
+    color:blue
+}
+
+.tiltle{
+    text-align:center;
+    color:brown
+}

@@ -1,0 +1,237 @@
+body{
+    font: 100%/125% “Times New Roman”, sans-serif;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 0px;
+    }
+    
+    #wrapper{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 8px;
+    margin-right: 10px;
+    }
+    .hh{
+        text-align: center;
+    
+    }
+    #header {
+    background-color: rgb(169, 236, 82);
+    border-radius: 8px;
+    height: 100px;
+    margin-bottom: 25px;
+    width: 100%;
+    }
+    #header p{
+    color: rgb(112, 15, 15);
+    font-style: bold;
+    font-family: Chalkduster;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 40px;
+    }
+    #footer {
+    clear: both;
+    text-align: center;
+    margin-top: 25px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    }
+    #footer p{
+    font-size: 10pt;
+    font-style: italic;
+    color: blue;
+    padding: 3px;
+    }
+    #left {
+    float: left;
+    width: 20%;
+    }
+    #left ul{
+    background-color: rgb(223, 250, 135);
+    width: 80%;
+    padding-top: 10;
+    padding-bottom: 10;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    }
+    #left li a{
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-left: 10;
+    display: block;
+    text-decoration: none;
+    font-size: 15;
+    font-family: unset;
+    font-weight: bold;
+    color: rgb(35, 33, 33);
+    }
+    #left li a:hover:not(.active){
+    background-color: rgb(7, 90, 84);
+    color: rgb(228, 190, 190);
+    border-radius: 8px;
+    }
+    #left li a.active{
+    background-color: blue;
+    color: rgb(249, 245, 245);
+    border-radius: 8px;
+    cursor: auto;*/
+    }
+    #right {
+    float: right;
+    width: 80%;
+    margin-right: -10px;
+    }
+    #right p{
+    margin-right: 0px;
+    color: black;
+    font-style: bold;
+    font-size: 15;
+    }
+    #right img{
+    margin: auto;
+    display: block;
+    width: auto;
+    height: auto;
+    }
+    #right table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 50px;
+    }
+    #right table td, #right table th {
+    border: 2px solid rgb(141, 137, 137);
+    padding: 8px;
+    }
+    #right table tr:nth-child(even){
+    background-color: #dfe5e3;
+    }
+    #right table tr:hover {background-color: #b0bf8c;}
+    #right table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(207, 222, 124);
+    color: rgb(80, 12, 12);
+    font-size: 22;
+    }
+    #right table td a{
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+    }
+    .box {
+    float: left;
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+    
+    }
+    .box img{
+    margin-left: 20px;
+    z-index: 999;
+    cursor: progress;
+    }
+    .cards{
+        position: relative;
+        height: 200vh;
+        width: 120vh;
+        /* height: 150vh; */
+        padding-bottom: 90vh;
+        padding-inline-end: 250px ;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 136, 0);
+    /*     padding-left: 150px; */
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    .card{
+        
+        background: lightblue;
+        width: 200px ;
+        height: 250px;
+        
+        border-radius: 10px;
+        text-align: center;
+        overflow: hidden;
+        margin: 0 10px;
+        
+    
+    }
+    img{
+        
+        width: 90%;
+       
+        object-position: center;
+    }
+    .card_img{
+    
+        width: 100px;
+        height: 100px;
+        border: 4px solid blue;
+        border-radius: 30%;
+        overflow: hidden;
+        margin: 0px auto ;
+        transform: translateY(25px);
+        transition: 1s;
+    
+    
+    }
+    .card h2{
+        font-size: 9x;
+        margin: 25px;
+        padding-top: 20px;
+    }
+    .card p{
+        padding-top: -50px;
+        color: var(--primary--color);
+    }
+    .card_social{
+        padding-left: 30px;
+        
+    }
+    .card_social a {
+        color: rgb(79, 22, 138);
+        margin: 10px ;
+        font-size: 25px;
+        Text-decoration: none
+    }
+    .card_social:hover{
+        color: crimson;
+    }
+    .card button {
+        width: 120px;
+        height: 30px;
+        border: 1px solid var(--primary--color);
+        background: transparent;
+        color:rgb(253, 0, 0);
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .card button:hover{
+        background: rgb(20, 220, 120);
+    }
+    .card_img:hover {
+        width: 100%;
+        height: 100%;
+        border-radius: unset;
+        transform: unset;
+        border: none;
+    }
+    .hhh{
+        margin-left: 80px;
+    }
+    .header-h1{
+        color: red;
+        padding-top: 25px;
+        text-align: center;
+        font-weight: bold;
+    }
